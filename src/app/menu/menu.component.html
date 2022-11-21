@@ -4,3 +4,9 @@
 <a routerLink="/todo">ToDo</a><br>
 <a routerLink="/private">Private</a><br>
 <a routerLink="/login">Login</a><br>
+
+<button *ngIf="!isLoggedIn$ else wyloguj" routerLink="/login">Zaloguj się</button>
+<ng-template #wyloguj>
+    <!-- <button (click)="logout()">Wyloguj się</button> -->
+    <button *ngIf="!(isLoggedIn$ | async ) else wyloguj">Wyloguj się</button>
+</ng-template>

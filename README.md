@@ -16,11 +16,11 @@ w aplikacji.
 oraz komunikat błędu przy nieprawidłowych danych.
 4. Po wejściu na prywatną część strony, niezalogowany użytkownik powinien
 zostać przeniesiony na stronę logowania.
-## Tasks to be implemented
 5. Wykorzystaj dyrektywę warunkową *ngIf oraz metodę subscribe() RxJS w celu
 dostosowania menu głównego do aktualnego stanu zalogowania:
 ○ przycisk Zaloguj się, gdy użytkownik nie będzie zalogowany
 ○ przycisk Wyloguj się, gdy użytkownik jest aktualnie zalogowany
+
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.

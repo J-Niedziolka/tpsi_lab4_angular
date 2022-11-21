@@ -20,7 +20,7 @@ export class LoginComponent implements OnInit {
 
   }
 
-  isLoggedIn = this.auth.isLoggedIn;
+  isLoggedIn = this.auth.isLoggedIn$;
 
   login(){
     if(this.auth.login(this.username, this.password)) {
