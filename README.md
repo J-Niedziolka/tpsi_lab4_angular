@@ -2,6 +2,25 @@
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.0.
 
+## Required tasks (finished)
+1. Utwórz nowy projekt zawierający routing.
+2. Utwórz cztery podstrony (za pomocą komponentów), pomiędzy którymi
+można będzie się przenosić za pomocą modułu routingu.
+○ Stwórz podstrony: strona startowa, kontakt, lista zadań, prywatne
+dane.
+○ Strona powinna zawierać menu oraz część główną (treść strony).
+3. Dodaj formularz logowania, który będzie blokował dostęp do części z danymi
+w aplikacji.
+○ Wykorzystaj serwis do zweryfikowania użytkownika.
+○ Dodaj przekierowanie do strony głównej przy poprawnym zalogowaniu
+oraz komunikat błędu przy nieprawidłowych danych.
+4. Po wejściu na prywatną część strony, niezalogowany użytkownik powinien
+zostać przeniesiony na stronę logowania.
+## Tasks to be implemented
+5. Wykorzystaj dyrektywę warunkową *ngIf oraz metodę subscribe() RxJS w celu
+dostosowania menu głównego do aktualnego stanu zalogowania:
+○ przycisk Zaloguj się, gdy użytkownik nie będzie zalogowany
+○ przycisk Wyloguj się, gdy użytkownik jest aktualnie zalogowany
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
